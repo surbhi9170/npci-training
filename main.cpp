@@ -3,16 +3,41 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 using namespace std;
 
+int positionRep( )
+{
+	int a[5]={1,5,5,8,9};
+	int num=0;
+	for (int i=0;i<5;i++)
+   {
+       cout<<a[i]<<" ";
+   }
+	cout<<"enter element";
+	cin>>num;
+	
+   cout<<"position :";
+	for(int i=0;i<5;i++)
+	{
+		if(a[i]==num)
+		{
+			cout<<i+1<<" ";
+		}
+	}
+	cout<<"\n";
+	return 0;
+}
 
 int position( )
 {
 	int a[5]={1,4,5,9,10};
 	int num=0;
-	cin>>num;
-	for (int i=0;i<5;i++)
+		for (int i=0;i<5;i++)
    {
        cout<<a[i]<<" ";
    }
+		cout<<"enter element";
+	cin>>num;
+	cout<<"\n";
+
 	for(int i=0;i<5;i++)
 	{
 		if(a[i]==num)
@@ -20,12 +45,13 @@ int position( )
 			cout<<"position is "<<i+1<<"\n";
 		}
 	}
+	cout<<"\n";
 	return 0;
 }
 
 int ascending()
 {
-	cout<<"Ascending order for";
+	cout<<"\n Ascending order for";
 	int i,j,temp=0;
    int arr[5]={1,5,10,8,9};
    for (int i=0;i<5;i++)
@@ -50,10 +76,11 @@ int ascending()
    {
        cout<<arr[i]<<" ";
    }
+   cout<<"\n";
    return 0;
 }
 int main(int argc, char** argv) {
-	
+	positionRep();
 	position();
 	ascending();
 	return 0;
