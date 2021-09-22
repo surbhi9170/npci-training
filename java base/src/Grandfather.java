@@ -1,13 +1,18 @@
 public class Grandfather extends Heirloom{
 
-    void houses()
+    Grandfather()
     {
         h=2;
+        c=1;
+    }
+    void houses()
+    {
+
         System.out.println("houses: "+h);
     }
     void cars()
     {
-        c=1;
+
         System.out.println("cars : "+c);
     }
    void assets()

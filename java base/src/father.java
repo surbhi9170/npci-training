@@ -1,18 +1,25 @@
-public class father extends Heirloom{
+public class father extends Grandfather{
     int b;
+    father()
+    {
+        super();
+        h=h+1;
+        c=c+1;
+        b=1;
+    }
     void houses()
     {
-        h=3;
+
         System.out.println("houses: "+h);
     }
     void cars()
     {
-        c=2;
+
         System.out.println("cars : "+c);
     }
     void bikes()
     {
-        b=1;
+
         System.out.println("bikes : "+b);
     }
     void assets()
