@@ -20,5 +20,6 @@ public class father extends Heirloom{
         System.out.println("Assets of father");
         houses();
         cars();
+        bikes();
     }
 }
