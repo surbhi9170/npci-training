@@ -7,16 +7,7 @@ public class father extends Grandfather{
         c=c+1;
         b=1;
     }
-    void houses()
-    {
 
-        System.out.println("houses: "+h);
-    }
-    void cars()
-    {
-
-        System.out.println("cars : "+c);
-    }
     void bikes()
     {
 
