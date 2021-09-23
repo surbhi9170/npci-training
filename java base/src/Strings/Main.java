@@ -19,7 +19,9 @@ public class Main {
         //Seller
 
         Product phone=new Product1();
-        phone.get();
+        //phone.get("");
+        Buyer b1=new Buyer();
+        b1.getPriceDetails();
 
     }
 }
