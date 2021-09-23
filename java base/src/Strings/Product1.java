@@ -1,5 +1,7 @@
 package Strings;
 
+import java.util.Scanner;
+
 public class Product1 extends Product{
 
     String name="Samsung s20 note+";
@@ -23,16 +25,26 @@ public class Product1 extends Product{
             }
         }
         System.out.println("Recommended seller: "+sellers[min]+" price:"+price[min]);
-        System.out.println("ALL THE SELLERS");
-        sellers();
-
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Do you wish to see all the sellers instead? yes/no:");
+        String choice= sc.nextLine();
+        if(choice.equalsIgnoreCase("yes"))
+        {
+            sellers();
+        }
+        else
+        {
+            System.exit(0);
+        }
     }
 
     @Override
     void sellers() {
+        System.out.println("ALL THE SELLERS");
         for (int i=0;i<price.length;i++)
         {
            System.out.println(sellers[i]+"  "+price[i]);
         }
+
     }
 }
