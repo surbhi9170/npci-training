@@ -35,6 +35,10 @@ public class Project {
         {
             developer++;
         }
+        else
+        {
+            System.out.println("Too costly to add developer");
+        }
     }
     long employeeCost()
     {
