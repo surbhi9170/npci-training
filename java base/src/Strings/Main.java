@@ -11,6 +11,15 @@ public class Main {
         s2="surbhi";
         System.out.println(s2.hashCode());
 
+        System.out.println(s2.concat(" jain").hashCode()+" "+s2.hashCode());
+
+        StringBuffer sb = new StringBuffer();
+        System.out.println(sb.append("surbhi ").append("jain").toString().hashCode());
+
+        //Seller
+
+        Product phone=new Product1();
+        phone.get();
 
     }
 }
