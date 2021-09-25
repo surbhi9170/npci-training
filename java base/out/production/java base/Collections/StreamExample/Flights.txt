@@ -1,0 +1,5 @@
+123,jet,hyd,kol
+124,Airasia,del,kol
+112,Indigo,bombay,del
+134,Air india,goa,pune
+412,Vistara,bdx,hyd
