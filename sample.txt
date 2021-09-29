@@ -1,4 +1,5 @@
-['surbhi', 'surbhi@gmail.com', 31123]
-['sejal', 'sejal@gmail.com', 132312]
-['akanksha', 'abs@gmail.com', 52312]
-['auav', 'garav@gmail.com', 43212]
+name   email   phone
+('sejal', 'sejal@gmail.com', 132312)
+('akanksha', 'abs@gmail.com', 52312)
+('surbhi', 'surbhi@gmail.com', 31123)
+('auav', 'garav@gmail.com', 43212)
